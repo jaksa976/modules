@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update -y
 apt upgrade -y
-apt install perl uniscan wget make apt-get install libwww-perl libssleay-perl -y
+apt install perl uniscan wget make libwww-perl libssleay-perl -y
 wget https://cpan.metacpan.org/authors/id/H/HA/HAARG/local-lib-2.000024.tar.gz
 tar xvf local-lib-2.000024.tar.gz
 cd local-lib-2.000024
